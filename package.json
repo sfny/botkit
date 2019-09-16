@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap --hoist",
     "build": "lerna run build",
     "test": "lerna run build ; lerna run test",
     "build-docs": "lerna run build-docs",
